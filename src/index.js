@@ -1,10 +1,3 @@
-// import axios from "axios";
-// import { Notify } from 'notiflix/build/notiflix-notify-aio';
-
-
-// const KEY = "29175457-ea8e2c93dbfac842acac0bec2";
-// const URL = `https://pixabay.com/api/?${KEY}&q=${q}&image_type=photo&orientation=horizontal&safesearch=true`;
-
 import { fetchImages } from './js/fetchApi.js';
 import { renderGallery } from './js/render.js';
 import { onScroll, onToTopBtn } from './js/scroll.js';
