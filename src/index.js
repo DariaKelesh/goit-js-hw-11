@@ -52,7 +52,7 @@ function onSearchForm(e) {
       }
     })
     .catch(error => console.log(error));
-  // e.currentTarget.reset;
+
   searchForm.reset();
 }
 
